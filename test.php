@@ -1,6 +1,5 @@
 <?php
 
-if (isset($_GET['info'])) {
-    echo 'test';
-    phpinfo();
-}
+require_once './functions.php';
+
+show_phpinfo();
